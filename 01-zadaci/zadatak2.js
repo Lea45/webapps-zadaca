@@ -5,4 +5,4 @@ var func1 = function(kuna){
     console.log(eur) 
 }
 
-func1(22)
+func1(23)
