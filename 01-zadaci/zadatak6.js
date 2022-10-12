@@ -1,11 +1,14 @@
+// Napiši funkciju kojoj se predaje string, te ona ispisuje bez razmaka svaku rijec velikim slovom
+
 var func6 =  function(str) {
-    str = str.toLowerCase();
-    var array = str.split(" ");
-    for(var i =0; i< array.length ; i++){
-      array[i] = array[i].charAt(0).toUpperCase() + array[i].substring(1);
+    var a = str.split(" ");
+    for(var i = 0; i < a.length ; i++){
+      a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1);
   
     } 
-     var finalString = array.join(" ")
-    return finalString ; 
+     var b = a.join("");
+     console.log(b)
   }
+
+  func6('web apps vjezbe')
   
